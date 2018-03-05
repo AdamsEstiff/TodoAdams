@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">todoAdams</string>
+    <string name="action_settings">Settings</string>
+    <string name="test1">Texto de prueba bebe (~¬.¬)~</string>
+    <string name="nombre">Nombre</string>
+    <string name="hintNombre">  Escriba un nombre</string>
+    <string name="nombre2">  Actividad</string>
+    <string name="hintActividad">  Escriba actividad</string>
+    <string name="Save">Save</string>
+    <string name="error_valid">Sucedio un error al hacer la validación</string>
+    <string name="action_resfresh">Refrescar</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="@dimen/fab_margin"
+    >
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="@dimen/fab_margin"
+        android:text="@string/test1"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="@dimen/fab_margin"
+        android:text="@string/nombre"
+        android:textAppearance="?android:textAppearanceMedium" />
+    //se debe de hacer asi sino esta malo
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:hint="@string/hintNombre"
+        />
+    <TextView
+        android:id="@+id/lblActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="left"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:text="@string/nombre2"
+        />
+
+    <EditText
+        android:id="@+id/txtActividad"
+        android:layout_width="447dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:gravity="left"
+        android:hint="@string/hintActividad"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Save"
+        />
+
+</LinearLayout>
